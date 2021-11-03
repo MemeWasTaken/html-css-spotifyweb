@@ -1,4 +1,4 @@
-
+/* General Section */
 * {
     margin: 0;
     padding: 0;
@@ -31,6 +31,10 @@ body {
     font-size: 90%;
     color: #D2D2D2;
 }
+.tab.a-style-none:hover {
+    margin-left: 3px;
+}
+/* /General Section */
 
 /* Scaffolding Desktop First */
 main {
@@ -60,6 +64,7 @@ footer {
 /* /Scaffolding Desktop First */
 
 /* NavBar Profile */
+/* Top */
 .container-navbar {
     width: 85%;
     margin: 0 auto;
@@ -68,10 +73,11 @@ footer {
 a.side-navbar {
     border: 0;
     background-color: transparent;
-    color: inherit;
     color: #D2D2D2;
+    font-size: 0.8em;
     padding-left: calc((100% - 85%) / 2);
     display: block;
+    font-weight: 600;
 }
 img[src="img/logo.svg"] {
     align-self: flex-start;
@@ -89,9 +95,42 @@ img[src="img/libreria.svg"] {
     filter: invert(100%) sepia(9%) saturate(7462%) hue-rotate(162deg) brightness(116%) contrast(107%);
 }
 .home-search-library a:hover {
+    color: #FFFFFF;
     border-left: 3px solid #ADFF2F;
     border-radius: 3px;
-    color: #FFFFFF;
+    font-size: 1em;
     font-weight: 500;
 }
+.home-search-library:last-child {
+    margin-bottom: 1em;
+}
+/* /Top */
+
+/* Middle */
+.playlist-list h3{
+    margin-top: 1em;
+    font-size: 0.9em;
+}
+.new-playlist {
+    margin-top: 0.3em;
+}
+.new-playlist a{
+    font-size: 0.8em;
+    font-weight: 600;
+}
+.fas.fa-plus-square::before {
+    font-size: 3em;
+    vertical-align: middle;
+    margin-right: 0.1em;
+}
+
+.playlist-names {
+    margin-top: 0.5em;
+    line-height: 3em;
+    font-size: 0.8em;
+    height: 40vh;
+    overflow-y: auto;
+}
+/* /Middle */
+
 /* /NavBar Profile */

@@ -7,6 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="css/style.css">
         <link rel="favicon" href="img/favicon-green.ico">
         <title>Spotify Web</title>
@@ -14,9 +15,13 @@
     <body class="flex-column">
         <main class="flex-row">
             <aside class="navbar-profile flex-column">
+                <!-- Top NavBar Profile Section -->
+                <!-- Logo -->
                 <div class="container-navbar">
                     <img src="img/logo.svg" alt="">
                 </div>
+
+                <!-- Home / Search / Library  -->
                 <ul class="list-style-none home-search-library">
                     <li class="home">
                         <a class="a-style-none side-navbar"> <img src="img/home.svg" alt=""> Home </a>
@@ -28,6 +33,27 @@
                         <a class="a-style-none side-navbar"> <img src="img/libreria.svg" alt=""> La tua libreria </a>
                     </li>
                 </ul>
+                <!-- /Top NavBar Profile Section -->
+
+                <!-- Middle NavBar Profile Section -->
+                <!-- New Playlist -->
+                <div class="playlist-list container-navbar">
+                    <h3>PLAYLIST</h3>
+                    <div class="new-playlist">
+                        <a class="tab a-style-none"> <i class="fas fa-plus-square"></i> Crea Playlist </a>
+                    </div>
+                    <ul class="playlist-names list-style-none">
+                        <li class="new-playlist"><a class="tab a-style-none"> Nome Playlist </a></li>
+                        <li class="new-playlist"><a class="tab a-style-none"> Nome Playlist </a></li>
+                        <li class="new-playlist"><a class="tab a-style-none"> Nome Playlist </a></li>
+                        <li class="new-playlist"><a class="tab a-style-none"> Nome Playlist </a></li>
+                        <li class="new-playlist"><a class="tab a-style-none"> Nome Playlist </a></li>
+                        <li class="new-playlist"><a class="tab a-style-none"> Nome Playlist </a></li>
+                        <li class="new-playlist"><a class="tab a-style-none"> Nome Playlist </a></li>
+                    </ul>
+                </div>
+                <!-- Middle NavBar Profile Section -->
+
             </aside>
 
             <section>
