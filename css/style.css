@@ -7,8 +7,11 @@
 html {
     font-size: 100%;
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
-
+body {
+    height: 100vh;
+}
 .flex-row {
     display: flex;
     flex-direction: row;
@@ -17,37 +20,78 @@ html {
     display: flex;
     flex-direction: column;
 }
-
-body {
-    border: 2px solid red;
-    height: 100vh;
+.list-style-none {
+    list-style-type: none;
+}
+.a-style-none,
+.a-style-none:hover,
+.a-style-none:focus,
+.a-style-none:active {
+    text-decoration: none;
+    font-size: 90%;
+    color: #D2D2D2;
 }
 
+/* Scaffolding Desktop First */
 main {
     width: 100%;
     height: calc(100% - 90px);
 }
-
 aside {
     background-color: #000000;
     width: 16%;
     height: 100%;
 }
-
 section {
     background-color: #141922;
     width: 84%;
     height: 100%;
 }
-
 .overlay-upgrade {
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 90px;
 }
-
 footer {
     background-color: #282828;
     width: 100%;
     height: 90px;
 }
+/* /Scaffolding Desktop First */
+
+/* NavBar Profile */
+.container-navbar {
+    width: 85%;
+    margin: 0 auto;
+}
+
+a.side-navbar {
+    border: 0;
+    background-color: transparent;
+    color: inherit;
+    color: #D2D2D2;
+    padding-left: calc((100% - 85%) / 2);
+    display: block;
+}
+img[src="img/logo.svg"] {
+    align-self: flex-start;
+    height: 40px;
+    margin: 20px 0 30px 0;
+    
+}
+img[src="img/home.svg"],
+img[src="img/search.svg"],
+img[src="img/libreria.svg"] {
+    width: 26px;
+    line-height: 26px;
+    vertical-align: middle;
+    margin-bottom: 0.5em;
+    filter: invert(100%) sepia(9%) saturate(7462%) hue-rotate(162deg) brightness(116%) contrast(107%);
+}
+.home-search-library a:hover {
+    border-left: 3px solid #ADFF2F;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+/* /NavBar Profile */
