@@ -7,3 +7,12 @@ html {
     font-size: 100%;
     font-family: 'Montserrat', sans-serif;
 }
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
