@@ -209,7 +209,7 @@ img[src="img/profile.svg"] {
 }
 
 /* Left Side Player */
-img[src="img/player_left.jpg"] {
+img[src="img/sinister.jpeg"] {
     width: 42px;
     height: 42px;
 }
@@ -236,15 +236,62 @@ img[src="img/player_left.jpg"] {
 /* /Left Side Player */
 
 /* Middle Player */
-.uno {
+.navigate-song {
     background-color: goldenrod;
-    width: 50%;
+    min-width: 200px;
+    width: 40%;
     height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
 }
-.due {
+.time-line {
     background-color: rebeccapurple;
+    min-width: 450px;
     width: 90%;
     height: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.navigate-song > a {
+    font-size: 1.2em;
+    padding-bottom: 0.2em;
+}
+.navigate-song > .play {
+    font-size: 1.7em;
+    align-self: center;
+    padding-bottom: 0;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 4px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    
+}
+
+.slider:hover {
+opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 25px;
+height: 25px;
+border-radius: 25px;
+background: #04AA6D;
+cursor: pointer;
 }
 /* /Middle Player */
 

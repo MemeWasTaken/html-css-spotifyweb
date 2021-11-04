@@ -123,7 +123,7 @@
 
             <!-- Left Side Player -->
             <div class="side-player flex-row">
-                <img src="img/player_left.jpg" alt="">
+                <img src="img/sinister.jpeg" alt="">
                 <div class="current-song">
                     <h4 class="song-title">Titolo</h4>
                     <a class="author a-style-none">Can Tante</a>
@@ -139,13 +139,22 @@
 
             <!-- Middle Player -->
             <div class="middle-player flex-column">
-                <div class="uno"></div>
-                <div class="due"></div>
+                <div class="navigate-song">
+                    <a class="random tab a-style-none" href=""><i class="fas fa-random"></i></a>
+                    <a class="backward tab a-style-none" href=""><i class="fas fa-step-backward"></i></a>
+                    <a class="play tab a-style-none" href=""><i class="far fa-play-circle"></i></a>
+                    <a class="forward tab a-style-none" href=""><i class="fas fa-step-forward"></i></a>
+                    <a class="redo tab a-style-none" href=""><i class="fas fa-redo"></i></a>
+                </div>
+                <div class="time-line">
+                    <p>0:25</p>
+                    <input type="range" min="0" max="261" value="25" class="slider">
+                    <p>4:35</p>
+                </div>
             </div>
             <!-- /Middle Player -->
-
             <div class="side-player flex-row">
-
+            
             </div>
         </footer>
     </body>
