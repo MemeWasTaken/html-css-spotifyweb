@@ -12,9 +12,9 @@
         <link rel="favicon" href="img/favicon-green.ico">
         <title>Spotify Web</title>
     </head>
-    <body class="flex-column">
+    <body class="flex-column pos-rel">
         <main class="flex-row">
-            <aside class="navbar-profile flex-column">
+            <aside class="navbar-profile flex-column pos-rel">
                 <!-- Top NavBar Profile Section -->
                 <!-- Logo -->
                 <div class="container-navbar">
@@ -42,6 +42,7 @@
                     <div class="new-playlist">
                         <a class="tab a-style-none"> <i class="fas fa-plus-square"></i> Crea Playlist </a>
                     </div>
+                    <!-- Playlist List -->
                     <ul class="playlist-names list-style-none">
                         <li class="new-playlist"><a class="tab a-style-none"> Nome Playlist </a></li>
                         <li class="new-playlist"><a class="tab a-style-none"> Nome Playlist </a></li>
@@ -52,7 +53,18 @@
                         <li class="new-playlist"><a class="tab a-style-none"> Nome Playlist </a></li>
                     </ul>
                 </div>
-                <!-- Middle NavBar Profile Section -->
+                <!-- /Middle NavBar Profile Section -->
+
+                <!-- Bottom NavBar Profile Section -->
+                <div class="bottom-side-navbar pos-abs">
+                        <div class="container-navbar bottom-navbar">
+                            <a class="download-app tab a-style-none" href=""> <img src="img/download.svg" alt=""> Installa app</a>
+                            
+                            <a class="user tab a-style-none" > <img src="img/profile.svg" alt=""> Tim Berners-Lee</a>
+                        </div>
+                    </div>
+                <!-- /Bottom NavBar Profile Section -->
+
 
             </aside>
 
@@ -67,7 +79,7 @@
 
         </main>
 
-        <footer class="navbar-song">    <!-- Position Fixed/Absolute(?) -->
+        <footer class="navbar-song pos-abs">    <!-- Position Fixed/Absolute(?) -->
 
         </footer>
     </body>
