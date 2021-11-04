@@ -196,7 +196,6 @@ img[src="img/profile.svg"] {
  justify-content: space-between;
 }
 .side-player {
-    /* background-color: crimson; */
     justify-content: space-around;
     align-items: center;
     width: 230px;
@@ -204,10 +203,12 @@ img[src="img/profile.svg"] {
 }
 .middle-player {
     background-color: crimson;
+    align-items: center;
     width: 40%;
     height: 100%;
 }
 
+/* Left Side Player */
 img[src="img/player_left.jpg"] {
     width: 42px;
     height: 42px;
@@ -223,9 +224,28 @@ img[src="img/player_left.jpg"] {
     font-size: 0.8em;
     color: rgba(255, 255, 255, 0.4);
 }
-.far.fa-heart::before,
-.far.fa-folder::before {
-    font-size: 0.9em;
-    color: rgba(255, 255, 255, 0.6);
+.author.a-style-none:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-size: 0.8em;
 }
+.add-fav.tab.a-style-none:hover,
+.open-folder.tab.a-style-none:hover {
+    margin-left: 0;
+}
+/* /Left Side Player */
+
+/* Middle Player */
+.uno {
+    background-color: goldenrod;
+    width: 50%;
+    height: 50%;
+}
+.due {
+    background-color: rebeccapurple;
+    width: 90%;
+    height: 50%;
+}
+/* /Middle Player */
+
 /* /Footer Section */
