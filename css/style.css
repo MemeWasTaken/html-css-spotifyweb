@@ -68,8 +68,6 @@ section {
 }
 footer {
     background-color: #282828;
-    bottom: 0;
-    left: 0;
     width: 100%;
     height: 90px;
 }
@@ -119,7 +117,7 @@ img[src="img/libreria.svg"] {
 /* /Top */
 
 /* Middle */
-.playlist-list h3{
+h3{
     margin-top: 1em;
     font-size: 0.9em;
 }
@@ -137,13 +135,13 @@ img[src="img/libreria.svg"] {
 }
 
 .mid-bot-side-navbar {
-    height: calc(100% - 116px);
+    height: calc(100% - 190px);
 }
 .playlist-names {
     margin-top: 0.5em;
     line-height: 3em;
     font-size: 0.8em;
-    height: calc(100% - 224px);
+    height: calc(100% - 216px);
     overflow-y: auto;
 }
 /* /Middle */
@@ -192,3 +190,42 @@ img[src="img/profile.svg"] {
     height: 100%;
 }
 /* /Main List Song */
+
+/* Footer Section */
+.navbar-player {
+ justify-content: space-between;
+}
+.side-player {
+    /* background-color: crimson; */
+    justify-content: space-around;
+    align-items: center;
+    width: 230px;
+    height: 100%;
+}
+.middle-player {
+    background-color: crimson;
+    width: 40%;
+    height: 100%;
+}
+
+img[src="img/player_left.jpg"] {
+    width: 42px;
+    height: 42px;
+}
+.current-song {
+    width: 70px;
+}
+.song-title {
+    font-size: 0.9em;
+    color: #FFFFFF;
+}
+.author {
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.4);
+}
+.far.fa-heart::before,
+.far.fa-folder::before {
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* /Footer Section */
