@@ -59,8 +59,11 @@ section {
     height: 100%;
 }
 .overlay-upgrade {
+    position: fixed;
+    top: 0;
+    right: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
+    width: calc(100% - 230px);
     height: 90px;
 }
 footer {
@@ -133,22 +136,25 @@ img[src="img/libreria.svg"] {
     margin-right: 0.1em;
 }
 
+.mid-bot-side-navbar {
+    height: calc(100% - 116px);
+}
 .playlist-names {
     margin-top: 0.5em;
     line-height: 3em;
     font-size: 0.8em;
-    height: 40vh;
+    height: calc(100% - 224px);
     overflow-y: auto;
 }
 /* /Middle */
 
 /* Bottom */
-.pos-abs.bottom-side-navbar {
-    bottom: 0;
-    left: 0;
-    width: 100%;
+.bottom-navbar {
     background-color: #000000;
+    bottom: 0;
+    height: 3.8em;
 }
+
 img[src="img/download.svg"] {
     width: 15px;
     height: auto;
@@ -159,6 +165,7 @@ img[src="img/download.svg"] {
     display: block;
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
     font-size: 0.8em;
+    padding-bottom: 0.3em;
 }
 .user {
     display: block;
@@ -176,3 +183,12 @@ img[src="img/profile.svg"] {
 }
 /* /Bottom */
 /* /NavBar Profile */
+
+/* Main List Song */
+.list-song {
+    padding-top: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+}
+/* /Main List Song */
