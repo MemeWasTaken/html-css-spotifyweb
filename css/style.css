@@ -270,39 +270,24 @@ img[src="img/sinister.jpeg"] {
     padding-bottom: 0;
 }
 
+/* Slider fatto così momentaneamente, poi verrà sostituito da consegna */
 .slider {
     -webkit-appearance:slider-horizontal;
     width: 80%;
     height: 4px;
-    background: rgba(255, 255, 255, 0.4);
-    outline: none;
-    
-}
-.slider:hover {
-    background: rgba(255, 255, 255, 0.8);
-}
-.slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 12px;
-    height: 12px;
-    border-radius: 15px;
-    background: #1DB954;
-}
-.slider::-webkit-slider-thumb:hover {
--webkit-appearance: none;
-appearance: none;
-width: 15px;
-height: 15px;
-border-radius: 15px;
-background: #1DB954;
-cursor: pointer;
 }
 .mins- {
-    color: rgba(255, 255, 255, 1);
+    color: #FFFFFF;
     font-size: 0.8em;
     align-content: center;
 }
 /* /Middle Player */
 
+/* Right Side Player */
+.list-icon.tab.a-style-none:hover,
+.device-icon.tab.a-style-none:hover,
+.volume-icon.tab.a-style-none:hover {
+    margin-left: 0;
+}
+/* /Right Side Player */
 /* /Footer Section */
