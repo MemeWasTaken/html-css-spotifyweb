@@ -236,6 +236,7 @@ img[src="img/profile.svg"] {
 .recently-played-list {
     padding-top: 1.2em;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -247,6 +248,9 @@ img[src="img/metal_lifting.jpg"] {
 .playable {
     align-items: center;
     flex-wrap: wrap;
+    width: calc(10vw + 1em);
+    min-width: 120px;
+    height: auto;
     padding-right: 1em;
 }
 h2 {
