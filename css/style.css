@@ -28,7 +28,7 @@ body {
 .a-style-none:focus,
 .a-style-none:active {
     text-decoration: none;
-    font-size: 90%;
+    font-size: 80%;
     color: rgba(255, 255, 255, 0.4);
 }
 .tab.a-style-none:hover {
@@ -41,6 +41,16 @@ body {
 .pos-abs {
     position: absolute;
 }
+.nav-horz-item:hover .border-btn,
+.active.nav-horz-li .nav-horz-item .border-btn{
+    padding-bottom: 0.2em;
+    border-bottom: 2px solid #ADFF2F;
+    border-radius: 3px;
+}
+.nav-horz-item:hover {
+    color: #FFFFFF;
+}
+
 /* /General Section */
 
 /* Scaffolding Desktop First */
@@ -186,12 +196,6 @@ img[src="img/profile.svg"] {
 /* /NavBar Profile */
 
 /* Main List Song */
-/* .list-song {
-    padding-top: 100px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    height: 100%;
-} */
 .upgrade {
     color: #FFFFFF;
     display: inline-block;
@@ -206,7 +210,23 @@ img[src="img/profile.svg"] {
 .upgrade:hover {
     font-size: 0.85em;
     color: #FFFFFF;
+    
+}
 
+.list-song {
+    padding-top: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+    /* background-color: tomato; */
+}
+.nav-horz {
+    justify-content: center;
+}
+.nav-horz-item {
+    text-transform: uppercase;
+    padding: 0 0.5em;
+    font-weight: 600;
 }
 /* /Main List Song */
 
