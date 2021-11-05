@@ -63,6 +63,9 @@ section {
     top: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
+    justify-content: flex-end;
+    /* align-content: center; */
+    align-items: center;
     width: calc(100% - 230px);
     height: 90px;
 }
@@ -183,13 +186,30 @@ img[src="img/profile.svg"] {
 /* /NavBar Profile */
 
 /* Main List Song */
-.list-song {
+/* .list-song {
     padding-top: 100px;
     overflow-x: hidden;
     overflow-y: auto;
     height: 100%;
+} */
+.upgrade {
+    color: #FFFFFF;
+    display: inline-block;
+    background-color: transparent;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+    font-size: 0.8em;
+    width: 220px;
+    padding: 0.8em 0;
+}
+.upgrade:hover {
+    font-size: 0.85em;
+    color: #FFFFFF;
+
 }
 /* /Main List Song */
+
 
 /* Footer Section */
 .navbar-player {
