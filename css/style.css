@@ -235,12 +235,13 @@ img[src="img/profile.svg"] {
 }
 .recently-played-list {
     padding-top: 1.2em;
-    justify-content: space-between;
     flex-wrap: wrap;
-
 }
+.recently-played-list.one {justify-content: space-between;}
+.recently-played-list.two {justify-content: flex-start;}
+.recently-played-list.three {justify-content: flex-start;}
 
-img[src="img/metal_lifting.jpg"] {
+.playable img {
     width: 10vw;
     min-width: 120px;
     height: auto;
@@ -284,7 +285,7 @@ h2 {
 }
 
 /* Left Side Player */
-img[src="img/sinister.jpeg"] {
+.side-player img[src="img/sinister.jpeg"] {
     width: 42px;
     height: 42px;
 }
