@@ -235,15 +235,19 @@ img[src="img/profile.svg"] {
 }
 .recently-played-list {
     padding-top: 1.2em;
+    justify-content: space-between;
+
 }
 
 img[src="img/metal_lifting.jpg"] {
     width: 10vw;
+    min-width: 120px;
     height: auto;
 }
 .playable {
     align-items: center;
     flex-wrap: wrap;
+    padding-right: 1em;
 }
 h2 {
     font-size: 1em;
