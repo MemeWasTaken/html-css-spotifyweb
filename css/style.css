@@ -239,7 +239,6 @@ img[src="img/profile.svg"] {
 }
 .recently-played-list.one {justify-content: space-between;}
 .recently-played-list.two {justify-content: flex-start;}
-.recently-played-list.three {justify-content: flex-start;}
 
 .playable img {
     width: 10vw;
@@ -256,13 +255,23 @@ img[src="img/profile.svg"] {
 }
 h2 {
     font-size: 1em;
-    padding-top: 1.2em; 
+    padding-top: 1.2em;
+    text-align: center;
 }
 .subtitle {
     padding-top: 0.5em;
     font-size: 0.8em;
     color: rgba(255, 255, 255, 0.4);
     font-weight: 500;
+}
+.recently-played-list.two:first-child {
+    margin-right: 1.5em;
+}
+.rounded-border {
+    border-radius: 50%;
+}
+.list-song:last-child {
+    padding-bottom: 5vh;
 }
 /* /Main List Song */
 
